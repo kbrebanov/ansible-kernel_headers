@@ -1,0 +1,6 @@
+---
+# tasks file for kernel_headers (CentOS specific)
+
+- name: Install kernel headers
+  yum: name=kernel-devel-{{ ansible_kernel }} state=present
+  tags: kernel_headers

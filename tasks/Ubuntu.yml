@@ -1,0 +1,6 @@
+---
+# tasks file for kernel_headers (Ubuntu specific)
+
+- name: Install kernel headers
+  apt: name=linux-headers-{{ ansible_kernel }} state=present update_cache=yes
+  tags: kernel_headers
