@@ -11,17 +11,22 @@ This role requires Ansible 1.4 or higher.
 Role Variables
 --------------
 
+None
+
 Dependencies
 ------------
+
+None
 
 Example Playbook
 ----------------
 
-1) Install kernel headers
-
-    - hosts: all
-      roles:
-         - { role: kernel_headers }
+Install kernel headers
+```
+- hosts: all
+  roles:
+    - { role: kbrebanov.kernel_headers }
+```
 
 License
 -------
