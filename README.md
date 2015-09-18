@@ -1,7 +1,7 @@
 kernel_headers
 ==============
 
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-kbrebanov.kernel_headers-660198.svg)](https://galaxy.ansible.com/list#/roles/3302)
+[![Ansible Role](https://img.shields.io/ansible/role/3302.svg)](https://galaxy.ansible.com/list#/roles/3302)
 
 Installs kernel headers.
 
